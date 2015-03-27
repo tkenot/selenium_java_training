@@ -13,7 +13,7 @@ public class HomePageTest extends TestBase {
 	@Parameters({ "path" })
 	@BeforeClass
 	public void testInit(String path) {
-
+		// baseUrl= "https://172.18.16.14:28443/processor/back-office/index.faces";
 		// Load the page in the browser
 		driver.get(baseUrl + path);
 		homepage = PageFactory.initElements(driver, HomePage.class);
