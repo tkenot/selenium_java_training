@@ -20,7 +20,7 @@ public class LoginTest extends tkenot.pages.TestBase {
   @Test
   public void testLogin() throws Exception {    driver.get(baseUrl + "/php4dvd/");
     WebElement usernameField = driver.findElement(By.id("username"));
-	usernameField.clear();
+	usernameField.clear();//
     usernameField.sendKeys("admin");
     WebElement passwordField = driver.findElement(By.name("password"));
 	passwordField.clear();
