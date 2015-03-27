@@ -4,6 +4,7 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
+			<class name="tkenot.LoginTest"/>
 		    <class name="tkenot.LoginTest14"/>
 		</classes>
 	</test>  
